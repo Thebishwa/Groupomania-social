@@ -164,13 +164,15 @@ export default {
   padding-top:50px;
   background: #333;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  
 }
 
 .profile h3{
-  color: white;
+  color: #05e189;
   border-bottom: 1px solid;
   text-align: center;
   padding-bottom: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .userInfo {
@@ -186,6 +188,7 @@ export default {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
+  
 }
 
 .userInfo-label {
@@ -194,8 +197,9 @@ export default {
   max-width: 500px;
   width: 90%;
   margin: auto;
-  font-size: medium;
-  color: white
+  font-size: large;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .profile-btn {
